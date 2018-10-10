@@ -4,7 +4,7 @@ header,h1{
 	font-family: 
 }
 
-img{
+figure img{
 	box-shadow: 2px 2px 2px black;
 }
 figure{
@@ -24,21 +24,46 @@ main,p{
 	margin-left: 3%;
 }
 
+main h2{
+	text-decoration: underline;
+}
+
+
 .puce{
 	list-style-image: url('images/dbz.png')
 	
 }
 
 nav ul {
-	font-size: 20px;
+	font-size: 25px;
 	list-style-type: none;
 	display:flex;
 	justify-content: center;
+	margin-left: 25%;
 	
 	
 }
 
 nav ul li{
-	padding-left: 5%;
+	margin-left: 50%;
 	
+	
+}
+
+nav ul li :hover {
+	color:red;
+
+}
+nav{
+	display: flex;
+	border: 5px solid black;
+	border-radius: 10px;
+	background-image: url('images/baniere.png')
+	
+	
+}
+
+nav img{
+	align-items: left;
+	margin-top: 25%;
 }
