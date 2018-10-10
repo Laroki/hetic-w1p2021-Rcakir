@@ -1,11 +1,17 @@
+@font-face {
+    font-family: 'Kaushan';
+    src: url('police/KaushanScript-Regular.otf');
+}
+
 header,h1{
 	text-align: center;
 	color:purple;
-	font-family: 
+	font-family: 'Kaushan';
 }
 
 figure img{
 	box-shadow: 2px 2px 2px black;
+	border-radius: 10px;
 }
 figure{
 	float: right;
@@ -24,8 +30,17 @@ main,p{
 	margin-left: 3%;
 }
 
-main h2{
+main h2 {
 	text-decoration: underline;
+	
+}
+a{
+	text-decoration: none;
+	
+}
+h2:hover {
+	
+	color:pink;
 }
 
 
@@ -40,25 +55,22 @@ nav ul {
 	display:flex;
 	justify-content: center;
 	margin-left: 25%;
-	
-	
+	font-family: 'Kaushan';
 }
 
 nav ul li{
 	margin-left: 50%;
-	
-	
 }
 
 nav ul li :hover {
 	color:red;
+	text-decoration: none;
 
 }
 nav{
 	display: flex;
-	border: 5px solid black;
-	border-radius: 10px;
-	background-image: url('images/baniere.png')
+	border: 5px soli black;
+	background-image: url('images/baniere.png');
 	
 	
 }
@@ -66,4 +78,9 @@ nav{
 nav img{
 	align-items: left;
 	margin-top: 25%;
+}
+
+footer{
+	text-align: center;
+	margin-top: 5%;
 }
