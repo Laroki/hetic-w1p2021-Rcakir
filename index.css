@@ -1,0 +1,44 @@
+header,h1{
+	text-align: center;
+	color:purple;
+	font-family: 
+}
+
+img{
+	box-shadow: 2px 2px 2px black;
+}
+figure{
+	float: right;
+	
+}
+
+figcaption{
+	text-align: center;
+}
+
+body{
+	background-image: url('images/fond.jpg')
+}
+
+main,p{
+	margin-left: 3%;
+}
+
+.puce{
+	list-style-image: url('images/dbz.png')
+	
+}
+
+nav ul {
+	font-size: 20px;
+	list-style-type: none;
+	display:flex;
+	justify-content: center;
+	
+	
+}
+
+nav ul li{
+	padding-left: 5%;
+	
+}
