@@ -11,7 +11,7 @@ header,h1{
 
 figure img{
 	box-shadow: 2px 2px 2px black;
-	border-radius: 10px;
+	border-radius: 10px 100px / 120px;
 }
 figure{
 	float: right;
@@ -57,7 +57,11 @@ nav ul {
 	margin-left: 25%;
 	font-family: 'Kaushan';
 }
-
+nav img{
+	align-items: left;
+	margin-top: 25%;
+	margin-left: 100%;
+}
 nav ul li{
 	margin-left: 50%;
 }
@@ -69,16 +73,18 @@ nav ul li :hover {
 }
 nav{
 	display: flex;
-	border: 5px soli black;
-	background-image: url('images/baniere.png');
-	
+	border: 5px soid black;
+}
+
+.baniere{
+position: absolute; left: 28%;top:21%;
+border: 1px sold blue;
+padding-top: 0%;
+
+
 	
 }
 
-nav img{
-	align-items: left;
-	margin-top: 25%;
-}
 
 footer{
 	text-align: center;
